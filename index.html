@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+
+<style>
+	
+body {
+
+	background-color: powderblue;
+  text-align: center;
+}
+
+p    {
+
+	font-size: 50px; 
+	font-family: Helvetica;
+
+}
+
+
+button {
+
+	padding: 32px 16px;
+	background-color: #04AA6D;
+	color: turquoise;
+	font-family: Times New Roman;
+
+
+}
+
+img {
+
+   width:60px;
+   height: 40px;
+
+}
+
+</style>
+
+<img src="RUSSSIA.jpg">
+<img src="JAPPPAN.jpg">
+
+<body>
+
+	<div class="container">
+
+		<script>
+
+       
+      var dollars = 100; // DOLLARS !
+      document.write(" <p><i> click the button! <i></p>" + ' ' + dollars + " $" + " will be converted to either Yen or Pounds")
+
+
+
+		</script>
+
+
+	</div>
+
+
+    <br>
+
+
+    <div class="container">
+
+    	<p id="display"> </p>
+
+              <button type="button" onclick="var dollars = 100; var jpy =157.95; document.getElementById('display').innerHTML = dollars*jpy + ' ¥';"> jpy </button>
+
+              <button type="button" onclick="var dollars = 100; var euro =0.97; document.getElementById('display').innerHTML = dollars*euro + ' €';"> euro </button>
+
+             
+
+
+    </div>
+
+
+</body>
+</html>
